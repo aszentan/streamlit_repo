@@ -4,7 +4,3 @@ numpy
 plotly
 pillow
 requests
-sqlite3
-pathlib
-datetime
-pprint
