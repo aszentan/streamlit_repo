@@ -10,7 +10,7 @@ from pathlib import Path
 BASE_LOC_URL = 'https://geocoding-api.open-meteo.com/v1'
 BASE_FORECAST_URL='http://api.open-meteo.com/v1/forecast'
 
-@st.cache_data(ttl=86400, show_spinner="Fetching location data ...") # cachelést csinálo dekorator, de nem műxik
+# @st.cache_data(ttl=86400, show_spinner="Fetching location data ...") # cachelést csinálo dekorator, de nem műxik
 def fetch_location_data(city:str) -> json:
     print(f"Fetch data for {city}")
     
